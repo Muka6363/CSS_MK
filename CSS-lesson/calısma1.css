@@ -1,0 +1,37 @@
+.hh1 {
+  color: rgb(218, 88, 8);
+}
+#ustt {
+  color: white;
+  background-color: rgb(102, 100, 100);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  border-bottom: 10px solid red;
+}
+#ustt li {
+  color: white;
+  display: inline;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+#butun {
+  display: flex;
+  justify-content: center;
+}
+#par2 {
+  background: url("https://picsum.photos/id/129/600/400") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#parsag {
+  border: 5px solid red;
+  margin: 20px;
+  text-align: justify;
+  padding: 45px;
+  width: 40%;
+}

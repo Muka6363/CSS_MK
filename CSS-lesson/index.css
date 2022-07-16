@@ -1,0 +1,20 @@
+#par3 {
+  background-color: blueviolet;
+}
+.ortak {
+  background-color: aquamarine;
+}
+#par5 {
+  background-color: chartreuse;
+  border: 20px double red;
+  border-radius: 60px;
+  padding: 50px;
+  margin: 10px 5px 30px 90px red;
+}
+#par6 {
+  background-color: darkgoldenrod;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+}

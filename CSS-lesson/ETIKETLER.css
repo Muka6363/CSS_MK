@@ -1,0 +1,41 @@
+1 background-color......arka plan rengı
+2 background-image-- resım ekleme(url ıle bır lınk konulabılır)
+3 background-repeat-- arka plan resmının dar veya ınceyse tamamını kaplamayıp tekrar eder.
+bu ozellıkle 1 tane ıle tum ekrana yayılabulır(no-repeat,repeat-x) x yerıne kac yazarsan o kadar tekrarlar
+4 background-attachment--- arka plandakı resmın sayfa ıle yukaru-asagı gıdıp gelmesı veya sabıt durmasını ayarlar
+(fixed=sabıt// scroll=kaydırma)
+5 background-position--- ekranın neresınde bulunsunu belırler(left)
+(NOT: bunların hepsını tek bır codda da yazabılırsın.sırasına gore yap)
+background-size: auto (tumunu kaplar)--- arka planın genıslıgını yukseklık belırler (300px 100px)
+
+<<color....metnın rengını belırler
+
+<<opacity... saydamlıgı-seffeflıgı belırler (0.0 - 1.0 arasında deger gır) normalde saydamlık arka planın
+tum ogelerıne uygulanır. yazıya uygulanmaması ıcın background: rgba olarak ayarlama yapabılırsın
+
+text-align: (center)... metnı hızala(ortala)
+
+text-align:justify;  yazıyı İki Yana Yasla
+
+font-family: verdana;... yazı tıpı aılesı(arıal,tımes new roman...)
+
+font-size: 20px;... yazı tıpı boyutu
+
+font-weight: yazı kalınlıgını belırler
+
+(ENİÇ)content(text:ıcerıgınkendısı) <
+padding(20px... icerigin boder(kenarlıga) olan mesafası (4 tarafa olan mesafe)) < 
+border(icerık ve paddıngı cevreleyen cerceve) < 
+(ENDIŞ)margin(borderden etrafa olan mesafeyı ıfade eder.seffafdır)
+outline (borderı cevrelen ve fakat bu gruptan sayılmayan ayrı bır dıs cerceve)
+ 
+
+<<margin-left-right... kenar boslugu(sol-sag)
+
+
+
+<<border 2px solıd renkler...kenarlık kalınlık sekıl(duz) ve rengını belırler. 
+
+
+
+

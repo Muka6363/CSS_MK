@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+.container {
+  /* border: 2px solid red; */
+
+  background-color: rgb(47, 46, 46);
+}
+#head2 {
+  font-size: 90px;
+  text-align: center;
+}
+.head {
+  font-family: "Lobster", cursive;
+}
+#span1 {
+  color: red;
+}
+#img1 {
+  /* border: 5px solid red; */
+  text-align: center;
+  box-shadow: yellow 200px;
+}
+#img22 {
+  /* border: 5px solid red; */
+  /* box-shadow: yellow 20px; */
+}
+#par1 {
+  /* border: 2px solid red; */
+  width: 500px;
+  margin: 20px auto;
+  text-align: justify;
+}
+.headx {
+  color: red;
+  margin-left: 28%;
+  font-family: "Lobster", cursive;
+}
+#ul1 {
+  margin: auto;
+  width: 45%;
+}
+#sonyer {
+  margin: 2rem;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-left: 26%;
+}
+#link {
+  text-decoration: none;
+  color: aliceblue;
+  border: 2px solid darkorange;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: blueviolet;
+}
+#link:hover {
+  background-color: chartreuse;
+  color: crimson;
+}

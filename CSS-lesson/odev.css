@@ -1,0 +1,72 @@
+.container {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  padding: ;
+  overflow: hidden;
+}
+
+#header {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border-bottom: 5px solid rgb(192, 184, 184);
+}
+
+#header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header li {
+  display: inline;
+  padding: 0 20px;
+  font-family: "Audiowide", sans-serif;
+}
+#branding {
+  color: white;
+  font-family: "Audiowide", sans-serif;
+}
+
+#spanColor {
+  color: #ff0000;
+}
+#main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url(https://picsum.photos/id/125/600/400);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  height: 90vh;
+}
+
+#main h1 {
+  font-size: 60px;
+  margin: 200px 0 10px;
+  font-family: "Audiowide", sans-serif;
+}
+
+#main p {
+  font-size: 30px;
+  font-family: "Audiowide", sans-serif;
+}
+
+#about,
+#contact {
+  background-color: black;
+  color: white;
+}
+#about h2,
+#contact h2 {
+  font-size: 30px;
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+  color: red;
+}
+
+#about p,
+#contact p {
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+  padding: 0 10px;
+}
