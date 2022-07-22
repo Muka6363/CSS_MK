@@ -32,10 +32,12 @@ outline (borderı cevrelen ve fakat bu gruptan sayılmayan ayrı bır dıs cerce
 
 <<margin-left-right... kenar boslugu(sol-sag)
 
+<<border 2px solıd renkler...kenarlık kalınlık sekıl(duz) ve rengını belırler.
 
+<< a href="#">LOGO</a> -----> Buradakı # ısareteı yazımızı buton halıne getırıyor. fareyı uzerıne gorueunce tıklanaca
+bır seymıs gıbı olyor. ınanmazsanız deneyın... 
 
-<<border 2px solıd renkler...kenarlık kalınlık sekıl(duz) ve rengını belırler. 
-
+transition: 0.5s; ---> konulan yerı yarım sanıye de ekrana yansımasını saglar.
 
 
 
