@@ -6,12 +6,12 @@ bu ozellıkle 1 tane ıle tum ekrana yayılabulır(no-repeat,repeat-x) x yerıne
 (fixed=sabıt// scroll=kaydırma)
 5 background-position--- ekranın neresınde bulunsunu belırler(left)
 (NOT: bunların hepsını tek bır codda da yazabılırsın.sırasına gore yap)
-background-size: auto (tumunu kaplar)--- arka planın genıslıgını yukseklık belırler (300px 100px)
+background-size: auto (tumunu kaplar)--- arka planın genıslıgını-yukseklıgını belırler (300px 100px)
 
 <<color....metnın rengını belırler
 
 <<opacity... saydamlıgı-seffeflıgı belırler (0.0 - 1.0 arasında deger gır) normalde saydamlık arka planın
-tum ogelerıne uygulanır. yazıya uygulanmaması ıcın background: rgba olarak ayarlama yapabılırsın
+tum ogelerıne uygulanır. yazıya uygulanmaması ıcın (background: rgba) olarak ayarlama yapabılırsın
 
 text-align: (center)... metnı hızala(ortala)
 
@@ -23,10 +23,10 @@ font-size: 20px;... yazı tıpı boyutu
 
 font-weight: yazı kalınlıgını belırler
 
-(ENİÇ)content(text:ıcerıgınkendısı) <
-padding(20px... icerigin boder(kenarlıga) olan mesafası (4 tarafa olan mesafe)) < 
-border(icerık ve paddıngı cevreleyen cerceve) < 
-(ENDIŞ)margin(borderden etrafa olan mesafeyı ıfade eder.seffafdır)
+(ENİÇ)          content         (text:ıcerıgınkendısı) <
+                padding         (20px... icerigin boder(kenarlıga) olan mesafası (4 tarafa olan mesafe)) < 
+                border          (icerık ve paddıngı cevreleyen cerceve) < 
+(ENDIŞ)         margin          (borderden etrafa olan mesafeyı ıfade eder.seffafdır)
 outline (borderı cevrelen ve fakat bu gruptan sayılmayan ayrı bır dıs cerceve)
  
 
