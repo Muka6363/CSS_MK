@@ -1,0 +1,25 @@
+.box1 {
+  /* background-color: tomato; */
+  /* background-color: #ff0000; */
+  background-color: hsl(120, 100%, 50%);
+}
+.box2 {
+  /* background-color: red; */
+  background-color: #ff12ff;
+}
+.box3 {
+  /* background-color: aqua; */
+  background-color: #5500ff;
+}
+.box4 {
+  /* background-color: chartreuse; */
+  background-color: #22ff22;
+}
+.box5 {
+  /* background-color: yellow; */
+  background-color: rgb(200, 100, 100, 0, 8);
+}
+.box6 {
+  /* background-color: salmon; */
+  background-color: rgba(255, 10, 10, 10);
+}

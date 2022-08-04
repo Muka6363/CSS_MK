@@ -1,0 +1,55 @@
+/*
+140 adet renk secenegımız var
+ RGB RENK değerleri:
+Bir renk, bir RGB değeriyle tanımlanabilir:
+rgb(red, green, blue)
+Her kırmızı, yeşil ve mavi parametre, rengin yoğunluğunu 0 ile 255 arasında tanımlar.
+Örneğin, rgb(0, 0, 255) mavi olarak görüntülenir, çünkü mavi 255'e ve diğerleri 0'a ayarlanmıştır.
+her rengı bu sayısasl degerlerle oynayarak elde ederız...
+
+HEX RENK Değerleri:
+Onaltılık bir değer kullanılarak bir renk tanımlanabilir:
+Onaltılık değerler 00 ile FF arasında olmalıdır.
+Örneğin, #0000FF mavi olarak görüntülenir, çünkü mavi FF'ye ve diğerleri 00'a ayarlıdır. ornek; #FFA2FF
+rg
+*/
+/* BORDER STYLE
+CSS border özellikleri, bir öğenin kenarlığının stilini, genişliğini ve rengini tanımlar. 
+boder stıllerı sunlardır---> dotted-dashed-solid-double-groove-ridge-inset-outset-none-hidden
+birden dörde kadar değere sahip olabilir (üst kenarlık, sağ kenarlık, alt kenarlık ve sol kenarlık). her bır kenarlıgı ayrı bır stılde yapabılırız.
+kalınlıklarını da sırayla 1px 2px 3px 4px
+OR:
+p {
+  border-style: dotted;
+  border-style: ridge dotted solid dashed;
+}
+p {
+  border: 1px solid blue;
+}
+/* 
+sementıc eleamnlar; 
+header, nav, main, artıcle, sectıon, aside
+header; h1 olur, baslıklar bunun ıcınde olur.logo 
+nav; gecıs lınklerı vs olur. hakkımızda,iletişim...
+sectıon; bolum olusturmak ıcın
+main; ana konu
+aside; ana konu olmayan seylerı, hava durumu, dovız kurları
+actıcle;
+footer; en altta olan ıletısım bılgılerının oldugu yerdır.
+ */
+/* ınlıne
+ınternal
+external css var... */
+
+
+
+
+
+
+
+
+
+
+
+
+*/
