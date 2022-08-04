@@ -10,7 +10,13 @@ div p {
 .container div p {
   /* contaıner classının ıcınde yer alan tum divlerın icine alınmıs tum p lere uygular*/
   background-color: rgb(0, 255, 47);
-  border: 5px dashed aqua;
+  border: 5px dashed rgb(255, 64, 0);
+  /*border-width: 20px 20px 20px 20px;
+  border-style: solid;
+  border-color: aqua yellow rebeccapurple red;*/
+
+  /* gerek genıslık gerek renk  gerekse stil olarak 4lu sıralama:üst-sağ-alt-sol (saat yonunde) 
+  * border yukarıdakı gıbı tek satırda da verılebılır. yorumdakı gıbı 3 ayrı satırda da verılebılır */
 }
 
 p + div {
@@ -25,7 +31,7 @@ p[title="baslık2"] {
   background-color: rgb(255, 0, 144);
 }
 h1[title="baslık3"] {
-  border-width: 10px 20px 30px 20px;
+  border-width: 20px 20px 20px 20px;
   border-style: solid;
   border-color: aqua yellow rebeccapurple red;
 }
