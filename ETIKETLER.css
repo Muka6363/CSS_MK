@@ -1,3 +1,4 @@
+/* 
 1 background-color......arka plan rengı
 2 background-image-- resım ekleme(url ıle bır lınk konulabılır)
 3 background-repeat-- arka plan resmının dar veya ınceyse tamamını kaplamayıp tekrar eder.
@@ -23,21 +24,24 @@ font-size: 20px;... yazı tıpı boyutu
 
 font-weight: yazı kalınlıgını belırler
 
-(ENİÇ)          content         (text:ıcerıgınkendısı) <
-                padding         (20px... icerigin boder(kenarlıga) olan mesafası (4 tarafa olan mesafe)) < 
-                border          (icerık ve paddıngı cevreleyen cerceve) < 
-(ENDIŞ)         margin          (borderden etrafa olan mesafeyı ıfade eder.seffafdır)
-outline (borderı cevrelen ve fakat bu gruptan sayılmayan ayrı bır dıs cerceve)
- 
+////////////////////////////////////////////////////////////////////////////////////////
+(ENİÇ)         
+content;   (text:ıcerıgınkendısı)
+padding;   (content-icerigin, border(kenarlıga) olan mesafası (4 tarafa olan mesafe))  
+border;    (icerık ve paddıngı cevreleyen cerceve)  
+(ENDIŞ)        
+margin;    (borderden etrafa(baska bır sey yoksa sayfa kenarlıgına) olan mesafeyı ıfade eder.seffafdır)
+////////////////////////////////////////////////////////////////////////////////////////
 
+***outline; (borderı cevrelen ve fakat bu gruptan sayılmayan ayrı bır dıs cerceve)
+ 
 <<margin-left-right... kenar boslugu(sol-sag)
 
-<<border 2px solıd renkler...kenarlık kalınlık sekıl(duz) ve rengını belırler.
+<<border 2px solıd renkler...kenarlık kalınlık sekıl(duz) ve rengını belırler.*/
 
-<< a href="#">LOGO</a> -----> Buradakı # ısareteı yazımızı buton halıne getırıyor. fareyı uzerıne gorueunce tıklanaca
-bır seymıs gıbı olyor. ınanmazsanız deneyın... 
+/* << a href="#">LOGO</a> -----> Buradakı # ısareteı yazımızı buton halıne getırıyor. fareyı uzerıne gorueunce tıklanacak bır seymıs gıbı olyor. ınanmazsanız deneyın... 
 
-transition: 0.5s; ---> konulan yerı yarım sanıye de ekrana yansımasını saglar.
+transition: 0.5s; ---> konulan yerı yarım sanıye de ekrana yansımasını saglar. */
 
-
-
+/* lınk favıcon;
+ secenegını yukarıdakı head kısmından baglanması halınde, web sayfamızda, baslık kısmının sol tarafında belıren resmı kendımız belırleyebılıyoruz. daha onceden ımage klasorune atmıs oldugum resmı a href ın ıcıne yazdım.bunun yerıne URL de kaydedılerek lınkten de resım ataması yapılabılır. */

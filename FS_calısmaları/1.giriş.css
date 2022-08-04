@@ -7,6 +7,11 @@ Her kırmızı, yeşil ve mavi parametre, rengin yoğunluğunu 0 ile 255 arasın
 Örneğin, rgb(0, 0, 255) mavi olarak görüntülenir, çünkü mavi 255'e ve diğerleri 0'a ayarlanmıştır.
 her rengı bu sayısasl degerlerle oynayarak elde ederız...
 
+RGBA renk değerleri:
+Bir rengin opaklığını-saydanlıgı tanımlayan bir alfa kanalına sahip RGB renk değerleridir.Bir RGBA renk değeri şu şekilde belirtilir:
+rgba(red, green, blue, alpha)--------rgba(255, 0, 90, 0.5)
+Alfa parametresi 0 (tamamen şeffaf) ile 1 (saydam değil-katıkoyu) arasında bir sayıdır:
+
 HEX RENK Değerleri:
 Onaltılık bir değer kullanılarak bir renk tanımlanabilir:
 Onaltılık değerler 00 ile FF arasında olmalıdır.
@@ -41,15 +46,24 @@ footer; en altta olan ıletısım bılgılerının oldugu yerdır.
 ınternal
 external css var... */
 
-
-
-
-
-
-
-
-
-
-
+/* 
+...CSS SYNTAX...
+h1 {color:blue; font-size:12px;}
+h1          ---->Selector
+color       ---> Property-----\Declaration birlikte
+blue        ----> Value-----/Declaration birlikte
+font-size   ---> Property
+12px        ----> Value
 
 */
+.par a {
+  text-decoration: none;
+}
+.par a:hover {
+  /* background-color: red; */
+  text-decoration: underline;
+}
+.par a:active {
+  background-color: rgb(236, 228, 234);
+}
+/* a lınk-baglantıyı saglar, hover, actıve vs. bu lınk text ıle ılgılı ayarlamalar yapar. */

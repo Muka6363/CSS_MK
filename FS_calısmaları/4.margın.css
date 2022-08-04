@@ -1,3 +1,107 @@
+/* (ENİÇ)         
+content;   (text:ıcerıgınkendısı)
+padding;   (content-icerigin, border(kenarlıga) olan mesafası (4 tarafa olan mesafe))  
+border;    (icerık ve paddıngı cevreleyen cerceve)  
+(ENDIŞ)        
+margin;    (borderden etrafa(baska bır sey yoksa sayfa kenarlıgına) olan mesafeyı ıfade eder.seffafdır)
+
+* ısaretıyle hedef gozetmeksızın hepsıne uygula demektır. 
+
+Margin; 
+Elemanın sınırları dışında boşluk yaratmak için kullanılır. Bir elemanın her bir tarafı için kenar boşluğunu ayarlamak için 4 farklı özellik vardır:
+margin-top------->
+margin-right------->
+margin-bottom------->
+margin-left------->
+steno sıralama; saat yonunden ust-sag-alt-sol... ORNEK;
+p {  margin: 1px 2px 3px 4px; }--->ust-sag-alt-sol
+p {  margin: 1px 2px 4px; }--->ust-sag/sol-alt
+p {  margin: 2px 4px; }--->ust/alt-sag/sol
+p {  margin: 3px; }--->ust/alt/sag/sol
+
+*Kenar boşluğunun uzunluğu px, rem, em, cm, vb. olarak tanımlanır.
+
+*Kenar boşluğu özelliği otomatik(auto) olarak ayarlanırsa, tarayıcı kenar boşluğunu hesaplar ve öğeyi yatay olarak ortalar.
+
+*Bir ıd-class a "margın ınherıt" yazarsak; bı usttekı class-ıd, yanı kendısının de ıcınde bulundugu etıketın ıd-class ının, margını ne kadarsa o da aynı mıktarda alacaktır
+
+padding;
+içerik-content ile kenarlıklar arasındaki boşluğu tanımlamak için kullanılır. Bir elemanın her bir tarafı için dolguyu ayarlamak için 4 farklı özellik vardır:
+padding-top------->
+padding-right------->
+padding-bottom------->
+padding-left------->
+steno sıralama; saat yonunden ust-sag-alt-sol... ORNEK;
+p {  padding: 1px 2px 3px 4px; }--->ust-sag-alt-sol
+p {  padding: 1px 2px 4px; }--->ust-sag/sol-alt
+p {  padding: 2px 4px; }--->ust/alt-sag/sol
+p {  padding: 3px; }--->ust/alt/sag/sol
+
+width;
+Öğenin içerik-text-content alanının genişliğini belirtir. İçerik alanı, bir öğenin (kutu modeli) dolgusu, sınırı ve dolgusu içindeki kısımdır.
+
+Bir elemanın belirli bir genişliği varsa, o elemana eklenen dolgu, elemanın toplam genişliğine eklenecektir. Bu genellikle istenmeyen bir sonuçtur. bunun ıcın;
+box-sizing;
+Dolgu miktarı ne olursa olsun genişliği 300 pikselde tutmak için box-sizing özelliğini kullanın:
+div {
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+text-align;
+Özelliği, bir metnin yatay hizalamasını ayarlamak için kullanılır. Bir metin sola veya sağa hizalanabilir, ortalanabilir veya iki yana yaslanabilir.
+text-align: left
+text-align: right
+text-align: center
+text-align: justify
+
+text-transform;
+Özellik , metni büyük harfe veya küçük harfe dönüştürmek veya her kelimenin ilk harfini büyük harf yapmak için kullanılır:
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: capitalize;
+
+text-indent;
+Metnin ilk satırının girintisini ayarlamak için kullanılır:
+
+line-height;
+Özellik, satırlar arasındaki boşluğu belirtmek için kullanılır:
+p.big {line-height: 1.8;}
+
+text-shadow; 
+Özellik metne gölge ekler.
+Örnek:p {text-shadow: 1px 2px blue;}
+
+font-size:
+yazı boyutunu ayarlatır. px-em-rem-vw veya % olarak ayarlanır
+vm: sabıttıre sayfayı kuculk-buyut hıc etkılenmez kendı buyuklugunu korur.
+dıgerlerın boyutu, duruma gore degısır. 
+font-size: 3vw">
+
+font-weight;
+yazı tıpının koyulugunu(bold)-agırlıgını belırler
+
+
+
+
+
+
+*/
+
+* {
+  /* margin: 0; */
+  padding: 2px;
+}
+body {
+  padding: 2px;
+}
+
+.container {
+  background-color: rgba(182, 129, 64, 0.87);
+  margin: 50px;
+  padding: 2px;
+}
 .box1 {
   background-color: aqua;
 }
@@ -6,8 +110,13 @@
 }
 .box3 {
   background-color: rgb(255, 85, 0);
-  border: 5px solid rgb(14, 31, 133);
-  margin: 20px;
+  border: 15px solid rgb(14, 31, 133);
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  margin: inherit;
+
+  /* box3 container class ın ıcınde oldugu ıcın onun margın ı olan 50px alır */
 }
 .box4 {
   background-color: rgb(238, 0, 255);
