@@ -3,27 +3,37 @@ div {
   /* border: 2px solid red;*/
 }
 div p {
+  /* div inda bulnan tum p lere uygulanır */
   border: 2px solid red;
 }
 
 .container div p {
+  /* contaıner classının ıcınde yer alan tum divlerın icine alınmıs tum p lere uygular*/
   background-color: rgb(0, 255, 47);
   border: 5px dashed aqua;
 }
 
 p + div {
+  /* p den sonra gelen divın tamamına uygulanır.  */
   background-color: blueviolet;
 }
 
-/*p den sonra gelen dıv demek  */
 p[title="baslık1"] {
   background-color: yellow;
 }
 p[title="baslık2"] {
   background-color: rgb(255, 0, 144);
 }
-.p1 {
+h1[title="baslık3"] {
   border-width: 10px 20px 30px 20px;
   border-style: solid;
   border-color: aqua yellow rebeccapurple red;
+}
+p::first-letter {
+  font-size: 3rem;
+}
+
+p::first-line {
+  font-style: italic;
+  font-weight: bold;
 }
