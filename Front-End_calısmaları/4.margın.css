@@ -1,0 +1,15 @@
+.box1 {
+  background-color: aqua;
+}
+.box2 {
+  background-color: rgb(93, 115, 57);
+}
+.box3 {
+  background-color: rgb(255, 85, 0);
+  border: 5px solid rgb(14, 31, 133);
+  margin: 20px;
+}
+.box4 {
+  background-color: rgb(238, 0, 255);
+}
+/* Bir ıd-class a "margın ınherıt" yazarsak; bı usttekı class-ıd, yanı kendısının de ıcınde bulundugu etıketın ıd-class ının, margını ne kadarsa o da aynı mıktarda alacaktır */
