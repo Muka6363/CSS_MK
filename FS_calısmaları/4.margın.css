@@ -47,52 +47,16 @@ div {
   width: 300px;
   padding: 25px;
   box-sizing: border-box;
-}
-
-text-align;
-Özelliği, bir metnin yatay hizalamasını ayarlamak için kullanılır. Bir metin sola veya sağa hizalanabilir, ortalanabilir veya iki yana yaslanabilir.
-text-align: left
-text-align: right
-text-align: center
-text-align: justify
-
-text-transform;
-Özellik , metni büyük harfe veya küçük harfe dönüştürmek veya her kelimenin ilk harfini büyük harf yapmak için kullanılır:
-text-transform: uppercase;
-text-transform: lowercase;
-text-transform: capitalize;
-
-text-indent;
-Metnin ilk satırının girintisini ayarlamak için kullanılır:
-
-line-height;
-Özellik, satırlar arasındaki boşluğu belirtmek için kullanılır:
-p.big {line-height: 1.8;}
-
-text-shadow; 
-Özellik metne gölge ekler.
-Örnek:p {text-shadow: 1px 2px blue;}
-
-font-size:
-yazı boyutunu ayarlatır. px-em-rem-vw veya % olarak ayarlanır
-vm: sabıttıre sayfayı kuculk-buyut hıc etkılenmez kendı buyuklugunu korur.
-dıgerlerın boyutu, duruma gore degısır. 
-font-size: 3vw">
-
-font-weight;
-yazı tıpının koyulugunu(bold)-agırlıgını belırler
-
-
-
-
-
-
+} 
 */
 
 * {
-  /* margin: 0; */
-  padding: 2px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+/* calısmalara baslanmadan once bu sekılde sıfırlanırlar. daha osnra duznlenır.
+box-sızıng: border-box; vermessek her verdıgımız marjın border sonrasında kutumuz buyuyecek, ama onu verırsek ne kadar deger verırsek verelım kutu buyuklugunu gecemez. kendı sınırları ıcınde kalması ıcın bu sart. */
 body {
   padding: 2px;
 }
@@ -122,3 +86,22 @@ body {
   background-color: rgb(238, 0, 255);
 }
 /* Bir ıd-class a "margın ınherıt" yazarsak; bı usttekı class-ıd, yanı kendısının de ıcınde bulundugu etıketın ıd-class ının, margını ne kadarsa o da aynı mıktarda alacaktır */
+.div1 {
+  background-color: aqua;
+  width: 150px;
+  height: 150px;
+}
+.div2 {
+  /* box-sizing: border-box; */
+  background-color: blueviolet;
+  height: 150px;
+  width: 150px;
+  border: 30px solid red;
+  padding: 10px;
+}
+/* box-sizing: border-box dıgerlerı nekadar buyurse de kutunun kendısınırlarını gecmesıne engel olmak ıcın kullanılır. */
+.div3 {
+  background-color: rgb(91, 232, 20);
+  height: 150px;
+  width: 150px;
+}

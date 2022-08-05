@@ -56,14 +56,10 @@ font-size   ---> Property
 12px        ----> Value
 
 */
-.par a {
-  text-decoration: none;
+.par {
+  text-align: center;
+  border: 5px solid red;
+  border-radius: 20px;
 }
 .par a:hover {
-  /* background-color: red; */
-  text-decoration: underline;
 }
-.par a:active {
-  background-color: rgb(236, 228, 234);
-}
-/* a lınk-baglantıyı saglar, hover, actıve vs. bu lınk text ıle ılgılı ayarlamalar yapar. */
