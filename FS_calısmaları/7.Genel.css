@@ -1,0 +1,106 @@
+.par1 {
+  text-align: center;
+  /* text-align;
+Özelliği, bir metnin yatay hizalamasını ayarlamak için kullanılır. Bir metin sola veya sağa hizalanabilir, ortalanabilir veya iki yana yaslanabilir.
+text-align: left
+text-align: right
+text-align: center
+text-align: justify (her ıkı tarafa yaslama)
+hizalama işlemi block etiketlere uygulanır. Eğer inline bir etiketleri için text-align özelliği işlevsel değildir. Eğer ki inline etiket grubunu hizalamak istersek bu durumda inline etiket grubunu bir block etiketi içine alıp hizalama işlemini yapabiliriz. inline etiketlere direk hizalama özelliği ekleyememizin sebebi; inline etiketler satırda içerik kadar yer kaplarlar hizalama işlemi için tüm satırı kaplamaları gerekir. */
+  text-decoration: underline;
+  /* text ıcın cızgı olusturur, her yonu--->overlıne, line-through... (ustu-altı-sagı-solu-uzerı)*/
+  text-shadow: 1px 2px brown;
+  /* text-shadow; 
+Özellik metne gölge ekler.
+Örnek:p {text-shadow: 1px 2px blue;} 
+ılk gırdı; +saga -sola---ıkıncı gırdı; +asagıya - yukarıya golge olusturur*/
+
+  text-transform: capitalize;
+  /* text-transform;
+Özellik , metni büyük harfe veya küçük harfe dönüştürmek veya her kelimenin ilk harfini büyük harf yapmak için kullanılır:
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: capitalize;
+ */
+  text-indent: 25px;
+  /* text-indent;
+Metnin ilk satırının girintisini ayarlamak için kullanılır: */
+}
+.par2 {
+  color: blue;
+  text-decoration: underline;
+  text-transform: capitalize;
+  letter-spacing: 8px;
+  /* her bır karakter arasına denılen kadar mesafe konulur. */
+}
+.par3 {
+  text-decoration: line-through solid 1px red;
+  text-shadow: 3px 2px 3px rgb(255, 4, 0);
+  line-height: 4;
+  /* satırlar arasındaki boşluğu belirtmek için kullanılır: */
+}
+.par4 {
+  text-transform: uppercase;
+  direction: ltr;
+  /* elemanın metin yönünü değiştirmek için kullanılır: */
+  letter-spacing: 10px;
+  word-spacing: px;
+}
+/* kelimeler arasındaki boşlukları belirtmek için kullanılır. - eksı deger gırılırse kelımeler ususte gelır */
+
+.par5 {
+  column-rule: 10px dotted red;
+  column-count: 4;
+  /* mevcut metnı denılen mıktarda-sayıda (count) sutuna boler. arasına konulacak ısaret boyutu ve rengıyle atama yapılır. */
+}
+.par6 {
+  font-style: italic;
+  /* tipi stilini italik veya eğik olarak ayarlamak için kullanılır. */
+  font-size: 20px;
+  /*yazı boyutunu ayarlatır. px-em-rem-vw veya % olarak ayarlanır
+vm: sabıttıre sayfayı kuculk-buyut hıc etkılenmez kendı buyuklugunu korur.
+dıgerlerın boyutu, duruma gore degısır. 
+font-size: 3vw" */
+  font-weight: bold;
+  /* yazı tıpının koyulugunu(bold)-agırlıgını belırler */
+}
+.par7 {
+  font-variant: small-caps;
+  /* Küçük  büyük harfli bir yazı tipinde görüntülenecek bir metni tanımlar. Tüm küçük harfler büyük harflere dönüştürülür ancak daha küçük yazı tipi boyutundadır. */
+}
+.par8 {
+  display: none;
+  /* visibility: hidden; */
+}
+/* bir öğenin nasıl görüntüleneceğini ayarlar.
+Çoğu öğe için varsayılan görüntüleme değeri block veya inline dır.
+<div> blok düzeyinde bir öğedir. 
+<span> ınline(satır içi)dir... varsayılan olarak
+none olarak yazarak onu gorunmez kılabılırız.
+visibility: hidden---> yaparsak hem gızler ama kapladıgı yerı de sabıt tutar. orası bos gosterılır
+
+ */
+.par9 {
+}
+/*
+
+
+
+
+
+
+
+
+>
+
+font-weight;
+
+
+font-famıly;
+google font---->font famıly ıcın adını yaz.sec. regular + butonu var onu tıkla. en ust sagı tıkla lınkı kopyala html head ın ıcınde bır yere kaydet. bu lınkın bır altındakı css ıcınde ayrı bır lınk var onu da kopyala  css gıdıp hangısıne uygulayacaksak onun ıcıne koylayabılırız. bırden fazla yere kopyalanabılır.
+
+position; 
+bu eleman ıle, konum belırlenır. :fixed ıle syfa asagı-yukarı yapılırken bu kısım sayfada sabıt kalır ekranda.
+
+
+*/

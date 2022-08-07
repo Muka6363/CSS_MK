@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  margin: 30px;
+  border: 3px solid red;
+  padding: 5px;
+  /* margin-top: 20px; bunu yemez */
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: rgb(92, 93, 88);
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  /* background-color: red; */
+  text-decoration: underline;
+  /* fare ıle uzerıne gıdıldıgınde kı ozellıkler */
+}
+a:active {
+  background-color: rgb(236, 228, 234);
+  /* tıklama esnasında kı ozellıkler */
+}
+a:visited {
+  color: rgb(254, 255, 255);
+}
+/*  zıyaret edıldıgınden sonra kı durumu */
+/* a lınk-baglantıyı saglar, hover, actıve vs. bu lınk text ıle ılgılı ayarlamalar yapar. */
+
+.box2 li {
+  margin: 10px;
+  border: 5px solid #b00a0a;
+  padding: 20px;
+  display: inline-block;
+}
+/* bu sekılde yazarak her bır li elemanına ıstedıgımız css ı uygulayabılırız. sadece bır tane */
+
+.box3 table,
+tr,
+th {
+  border: 5px solid #187f81;
+  background-color: rgba(128, 255, 0, 0.286);
+}
+.box3 table,
+tr,
+td {
+  vertical-align: bottom;
+  padding: 20px;
+}
+/*  Varsayılan olarak, bir tablodaki içeriğin dikey hizalaması ortadır. bununla alta yasla.
+bu sekılde yazarak her bır tr th tr td elemanına ıstedıgımız css ı uygulayabılırız. */
+tr:nth-child(even) {
+  background-color: #b00a0a;
+}

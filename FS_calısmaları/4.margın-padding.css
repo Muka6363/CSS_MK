@@ -40,9 +40,9 @@ p {  padding: 3px; }--->ust/alt/sag/sol
 width;
 Öğenin içerik-text-content alanının genişliğini belirtir. İçerik alanı, bir öğenin (kutu modeli) dolgusu, sınırı ve dolgusu içindeki kısımdır.
 
-Bir elemanın belirli bir genişliği varsa, o elemana eklenen dolgu, elemanın toplam genişliğine eklenecektir. Bu genellikle istenmeyen bir sonuçtur. bunun ıcın;
+Bir elemanın belirli bir genişliği varsa, o elemana eklenen padding, elemanın toplam genişliğine eklenecektir. Bu genellikle istenmeyen bir sonuçtur. bunun ıcın;
 box-sizing;
-Dolgu miktarı ne olursa olsun genişliği 300 pikselde tutmak için box-sizing özelliğini kullanın:
+padding miktarı ne olursa olsun genişliği 300 pikselde tutmak için box-sizing özelliğini kullanın:
 div {
   width: 300px;
   padding: 25px;
@@ -57,6 +57,7 @@ div {
 }
 /* calısmalara baslanmadan once bu sekılde sıfırlanırlar. daha osnra duznlenır.
 box-sızıng: border-box; vermessek her verdıgımız marjın border sonrasında kutumuz buyuyecek, ama onu verırsek ne kadar deger verırsek verelım kutu buyuklugunu gecemez. kendı sınırları ıcınde kalması ıcın bu sart. */
+
 body {
   padding: 2px;
 }
