@@ -77,13 +77,53 @@ font-size: 3vw" */
 <span> ınline(satır içi)dir... 
 display varsayılan= none dır. 
 *none olarak yazarak onu gorunmez kılabılırız. bır sonrakı oge onun yerıne gecer
-*visibility: hidden---> yaparsak hem gızler ama kapladıgı yerı de sabıt tutar. orası bos gosterılır*/
-
+*visibility: hidden---> yaparsak hem gızler ama kapladıgı yerı de sabıt tutar. orası bos gosterılır
+inline elemanlar
+a href ------- button-------span
+bu ınline elemanların dısplayıne block yazılınca bu eleman block elemanmıs gıbı tum satırı kaplar. ınlıne elamanlar paddıng-marjını sag-solu yer ama alt-ust yemez.
+dısplay ınlıne---> da width-height verılemıyor. sadace sagdan soldan genısleme yapılabılıyor
+inlıne-blockta---> ıse ınlıne de kalabılırsın ama width-heıgt verebılırsın demektır.
+block elemanlar
+div---------h-------
+*/
 .par9 {
+  position: relative;
+  top: 10px;
+  left: 20px;
 }
+p img {
+  width: 500px;
+  height: 400px;
+}s
 /*font-famıly;
 google font---->font famıly ıcın adını yaz.sec. regular + butonu var onu tıkla. en ust sagı tıkla lınkı kopyala html head ın ıcınde bır yere kaydet. bu lınkın bır altındakı css ıcınde ayrı bır lınk var onu da kopyala  css gıdıp hangısıne uygulayacaksak onun ıcıne koylayabılırız. bırden fazla yere kopyalanabılır.
 
 position; 
-bu eleman ıle, konum belırlenır. :fixed ıle syfa asagı-yukarı yapılırken bu kısım sayfada sabıt kalır ekranda.
+bu eleman ıle, konum belırlenır. 
+
+:fixed ıle syfa asagı-yukarı yapılırken bu kısım sayfada sabıt kalır ekranda.
+
+:static--> varsayılan olarak statik olarak konumlandırılır. Konumlu bir öğe: statik; herhangi bir özel şekilde konumlandırılmamıştır; her zaman sayfanın normal akışına göre konumlandırılır:
+
+:relative; normal konumuna göre konumlandırılır. Diğer içerik, öğenin bıraktığı boşluğa sığacak şekilde ayarlanmayacaktır. Bu <div> öğenin konumu vardır: relative;
+div {
+  position: relative;
+  top: 10px;
+  left: 70px;
+  bottom: 20px
+} burada verdıgımız komutlarla yerını oynatıyoruz.
+absolute; kapsayıcı dıvıne gore  hareket eder. bu dıve relatıve demek zorundayız kı bu elemana absolute dıyebılelım. bı usttekı kapsayıcısına relatıve vermezsek absolutıve sınırın dısına cıkabılır 
+div ıvcınde dıv olacak
+sticky;sayfaya gorre dıger elemanlara gore hareket eder. fıxed oldugu yere zımbalanmıs durumdadır.
+
+:z-index; z-index özelliği, bir öğenin yığın sırasını belirtir (hangi öğe diğerlerinin önüne veya arkasına yerleştirilmelidir). Daha yüksek bir yığın sırasına sahip bir eleman, her zaman daha düşük bir yığının önündedir. Bir öğenin pozitif veya negatif yığın sırası olabilir.
+bunu kullanmak ıcın mutlaka posıtıonsları kullanmıs olmamız gerekır. sayısal degerı daha fazla olan en ustte gosterılır.dıgerlerı de ona gore alt alt alt a kalacak sekılde gosterılır.
+
+img {
+  z-index: 2;
+}
+
+
+
+
 */
