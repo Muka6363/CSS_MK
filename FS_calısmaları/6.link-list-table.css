@@ -31,11 +31,29 @@ a:visited {
 /*  zıyaret edıldıgınden sonra kı durumu */
 /* a lınk-baglantıyı saglar, hover, actıve vs. bu lınk text ıle ılgılı ayarlamalar yapar. */
 
+.box1 li {
+  /* margin: 10px;
+  border: 5px solid #b00a0a;
+  padding: 20px; */
+  list-style-type: circle;
+}
+/* 1.list-style-type ; (circle-decımal-(lover-greek)-katakana)Liste öğesi işaretçisinin türünü ayarlar.
+  2.list-style-position; (insıde-outside) öğesi işaretçilerinin konumunu ayarlar.
+  3.list-style-image; url() Bir görüntü ile bir işaretleyici için kullanılabilir .
+  bunları sırasıyla tek bır komutta da yapabılırız.
+ul {
+  list-style: square inside url("bullet.jpg");
+}
+
+
+ */
+
 .box2 li {
   margin: 10px;
   border: 5px solid #b00a0a;
   padding: 20px;
   display: inline-block;
+  list-style-type: circle;
 }
 /* bu sekılde yazarak her bır li elemanına ıstedıgımız css ı uygulayabılırız. sadece bır tane */
 
@@ -50,8 +68,10 @@ tr,
 td {
   vertical-align: bottom;
   padding: 20px;
+  border-collapse: collapse;
 }
-/*  Varsayılan olarak, bir tablodaki içeriğin dikey hizalaması ortadır. bununla alta yasla.
+/*  Varsayılan olarak, bir tablodaki içeriğin dikey hizalaması ortadır. vertical-align: bottom;--->bununla alta yasla.
+text-align:center; --->yatay olarak ortalar
 bu sekılde yazarak her bır tr th tr td elemanına ıstedıgımız css ı uygulayabılırız. */
 tr:nth-child(even) {
   background-color: #b00a0a;
