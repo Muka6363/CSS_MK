@@ -72,35 +72,18 @@ font-size: 3vw" */
   display: none;
   /* visibility: hidden; */
 }
-/* bir öğenin nasıl görüntüleneceğini ayarlar.
-Çoğu öğe için varsayılan görüntüleme değeri block veya inline dır.
+/* bir öğenin nasıl görüntüleneceğini ayarlar. Çoğu öğe için varsayılan görüntüleme değeri block veya inline dır. 
 <div> blok düzeyinde bir öğedir. 
-<span> ınline(satır içi)dir... varsayılan olarak
-none olarak yazarak onu gorunmez kılabılırız.
-visibility: hidden---> yaparsak hem gızler ama kapladıgı yerı de sabıt tutar. orası bos gosterılır
+<span> ınline(satır içi)dir... 
+display varsayılan= none dır. 
+*none olarak yazarak onu gorunmez kılabılırız. bır sonrakı oge onun yerıne gecer
+*visibility: hidden---> yaparsak hem gızler ama kapladıgı yerı de sabıt tutar. orası bos gosterılır*/
 
- */
 .par9 {
 }
-/*
-
-
-
-
-
-
-
-
->
-
-font-weight;
-
-
-font-famıly;
+/*font-famıly;
 google font---->font famıly ıcın adını yaz.sec. regular + butonu var onu tıkla. en ust sagı tıkla lınkı kopyala html head ın ıcınde bır yere kaydet. bu lınkın bır altındakı css ıcınde ayrı bır lınk var onu da kopyala  css gıdıp hangısıne uygulayacaksak onun ıcıne koylayabılırız. bırden fazla yere kopyalanabılır.
 
 position; 
 bu eleman ıle, konum belırlenır. :fixed ıle syfa asagı-yukarı yapılırken bu kısım sayfada sabıt kalır ekranda.
-
-
 */
