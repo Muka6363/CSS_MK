@@ -1,0 +1,54 @@
+.main {
+  width: 100%;
+  background-color: aqua;
+  height: 1000px;
+  margin: 30px;
+  padding: 5px;
+}
+/* .box1 {
+  margin-top: 0px;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: relative;
+} */
+.box1 {
+  margin: auto;
+  height: 100px;
+  width: 30%;
+  background-color: blue;
+  position: fixed;
+  bottom: 50px;
+  right: 0%;
+}
+
+.box2 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 0, 230);
+  position: sticky;
+  top: 10px; /* buyutulup kucultunce asagıda yazılan sartlar kadar hareket eder. bu denılen krıterlere gelınce oraya sabıtlenır daha da devam etmez. yanı burada bu pembe yer sayfa yukarı cıkartıldıkca hareket eder ta kı top 10 olana kadar.burada durur.sabıtlenır. */
+
+  /* position: relative;
+  /* yoruma alttakıler ıslemez. */
+  /* top: 20px;
+  left: 30px; */
+}
+.box3 {
+  z-index: l;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(64, 255, 0);
+  /* position: absolute; */
+  top: 20px;
+  left: 30px;
+  /* ustunde baska dıv vs olmayınca body gore kendını konumlandırdı. bır usttekı onda yoksa onun bı ustundekı parıtna gore posıtıons revalıtıve olana bakıyor ve ona gore konumlanacak. */
+  z-index: 5;
+}
+#icerde {
+  z-index: 2;
+  height: 60px;
+  width: 60px;
+  background-color: crimson;
+  /* bunun ustu bır dıvdır.box2 dıvının altındadır bu ıcerde. bu sebeple ılk olarak pos.absolıte olacaksa ona gore bakılır. konumlnır. */
+}

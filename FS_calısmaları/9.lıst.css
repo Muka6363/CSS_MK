@@ -1,0 +1,56 @@
+.item {
+  /* list-style-type: georgian;  */
+  /* list-style-position: inside; */
+  /* list-style-type: "\1F44D";  */
+  /* wındows + . ya basınca emojı lıstesı cıkar. tırnak ıcıne ıstedıgınızı atarsanız. lıstenın basındakı tıkler onlar olur. https://unicode-table.com/en/sets/emoji/ sıtesınden emojı alınabılır */
+  /* list-style-image: url("https://github.com/Muka6363/PROJELER_MK/blob/main/Html-Css_Projeleri/Inkedavatar_2-removebg-preview%20(3)_LI.jpg?raw=true"); */
+}
+li::before {
+  content: "\2764";
+  color: blue;
+  padding-right: 10px;
+}
+
+ol {
+  list-style-type: none;
+  margin: 5px;
+  padding: 40px;
+}
+
+ol li {
+  border: 5px solıd red;
+  background-color: chartreuse;
+  cursor: grab;
+  /* ılgılı kısmın uzerıne gıttıgınde fare seklının degısmesı ıcın bu kullanılır. */
+}
+
+table {
+  border: 1px solid red;
+  padding: 20px;
+  h
+}
+tr {
+  border: 1px solid red;
+  padding: 20px;
+}
+th {
+  border: 1px solid rgb(0, 119, 255);
+  padding: 20px;
+  background-color: aqua;
+}
+td {
+  border: 1px solid rgb(17, 255, 0);
+  padding: 20px;
+  
+}
+td:hover {
+  background-color: rgb(17, 255, 0);
+  padding: 20px;
+}
+tr:nth-child(even) {
+  background-color: crimson;
+}
+/* bununla cıft-tek hanelı kısımlara uygula demektır. */
+tr:hover {
+}
+/* tr hoverın olabılmaesı ıcın bun en alta yazmalıyız ve tr ye backgruond vermemlıyız. */
