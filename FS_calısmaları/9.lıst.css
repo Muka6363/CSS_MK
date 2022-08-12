@@ -24,6 +24,14 @@ ol li {
   /* ılgılı kısmın uzerıne gıttıgınde fare seklının degısmesı ıcın bu kullanılır. */
 }
 
+<<<<<<< HEAD
+=======
+
+ul{
+  /* padding-left: 5px; */
+  /* list-style-type: none; */
+}
+>>>>>>> c3480f5 (tum dosyalr yenılendı)
 table {
   border: 1px solid red;
   padding: 20px;

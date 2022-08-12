@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.over {
+  width: 150px;
+  height: 200px;
+  background-color: aqua;
+  overflow: hidden;
+}
+
+.over2 {
+  width: 150px;
+  height: 400px;
+  background-color: rgb(255, 0, 85);
+  overflow: scroll;
+}
+/*overflow; içeriği olduğunda kaydırma çubuklarının eklenip eklenmeyeceğini veya belirtilen alana sığmayan içeriğin kırpılıp kırpılacağını belirtir. Taşma özelliği yalnızca belirli bir yüksekliğe sahip blok öğeleri için çalışır.
+visible: Varsayılan. Taşma kırpılmamış. İçerik, öğenin kutusunun dışında işleniyor
+hidden: Taşma kırpılır ve içeriğin geri kalanı görünmez olur
+scroll: Taşma kırpılır ve içeriğin geri kalanını görmek için bir kaydırma çubuğu eklenir
+auto: Kaydırmaya benzer, ancak yalnızca gerektiğinde kaydırma çubukları ekler
+overflow-x ve overflow-y özellikleri, içeriğin taşmasının sadece yatay mı yoksa dikey mi (veya her ikisi) mi değiştirileceğini belirtir:  */
