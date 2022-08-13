@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.over {
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+  /* overflow: scroll; */
+  overflow-y: scroll;
+  float: inline-start;
+}
+
+.over2 {
+  width: 150px;
+  height: 500px;
+  background-color: rgb(255, 0, 85);
+  /* overflow: hidden; */
+  float: right;
+}
+/*!overflow; 
+içeriği olduğunda kaydırma çubuklarının eklenip eklenmeyeceğini veya belirtilen alana sığmayan içeriğin kırpılıp kırpılacağını belirtir. Taşma özelliği yalnızca belirli bir yüksekliğe sahip blok öğeleri için çalışır.
+visible: Varsayılan. Taşma kırpılmamış. İçerik, öğenin kutusunun dışında işleniyor
+hidden: Taşma kırpılır ve içeriğin geri kalanı görünmez olur
+scroll: Taşma kırpılır ve içeriğin geri kalanını görmek için bir kaydırma çubuğu eklenir
+auto: Kaydırmaya benzer, ancak yalnızca gerektiğinde kaydırma çubukları ekler
+overflow-x ve overflow-y özellikleri, içeriğin taşmasının sadece yatay mı yoksa dikey mi (veya her ikisi) mi değiştirileceğini belirtir:  */
+
+/*! Float özelliği; 
+içeriği konumlandırmak ve biçimlendirmek için kullanılır. bır ıcerıgın ıcerısınde bulundugu tag ın neresınde bulunacagını belırlemek ıcın kullanılır. Float özelliği aşağıdaki değerlerden birine sahip olabilir:
+left --- right --- none(varsayılan) --- inherit (kendısının ıcınde bulundugu tag ın ozellıgını mıras alır)
+
+/*!opacity; 
+bir öğenin opaklığını/saydamlığını belirtir.opacity 0'dan 1'e kadar değer alabilir. Değer ne kadar düşükse o kadar şeffaftır :
+
+/*! Uzunluk olcu bırımlerı;
+em: Öğenin yazı tipi boyutuna göre 
+ex: Geçerli yazı tipinin x yüksekliğine göre 
+ch: "0" genişliğine göre 
+rem: Kök öğenin yazı tipi boyutuna göre 
+vw: %1'e göre 
+vh: Görünüm alanının yüksekliğinin %1'ine göre 
+vmin: Görünümün* küçük boyutunun %1'ine göre vmax: Görünümün* büyük boyutunun %1'ine göre
+%: Ana öğeye göre
+
+/*! Width - Height
+Yükseklik ve genişlik özellikleri, bir elemanın yüksekliğini ve genişliğini ayarlamak için kullanılır.
+
+Yükseklik ve genişlik özellikleri padding, border veya margin ı içermez.
+
+Yükseklik ve genişlik özellikleri aşağıdaki değerlere sahip olabilir:
+
+auto - Bu varsayılandır. Tarayıcı yüksekliği ve genişliği hesaplar
+uzunluk - Yüksekliği/genişliği px, cm vb. cinsinden tanımlar.
+% - İçerdiği bloğun yüzdesi olarak yüksekliğini/genişliğini tanımlar
+ilk - Yüksekliği/genişliği varsayılan değerine ayarlar
+inherit - Yükseklik/genişlik üst değerinden devralınır
+
+/*!Maksimum genişlik ayarı
+max-width özelliği, bir elemanın maksimum genişliğini ayarlamak için kullanılır.
+
+Bu, width özelliğinin kullanılan değerinin max-width tarafından tanımlanan değerden daha büyük olmasını engeller.
+
+*/
