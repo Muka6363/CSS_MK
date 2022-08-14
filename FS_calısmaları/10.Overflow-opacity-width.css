@@ -19,6 +19,23 @@
   /* overflow: hidden; */
   float: right;
 }
+
+p {
+  border: 2px solid red;
+  outline: 3px double;
+  outline-color: chartreuse;
+}
+
+.buton {
+  display: inline-block;
+  border: 3px solid rgb(0, 0, 0);
+  margin: 5%;
+  padding: 5%;
+  outline: 5px solid rgb(255, 255, 255);
+}
+.buton:hover {
+  outline: -5px solid red;
+}
 /*!overflow; 
 içeriği olduğunda kaydırma çubuklarının eklenip eklenmeyeceğini veya belirtilen alana sığmayan içeriğin kırpılıp kırpılacağını belirtir. Taşma özelliği yalnızca belirli bir yüksekliğe sahip blok öğeleri için çalışır.
 visible: Varsayılan. Taşma kırpılmamış. İçerik, öğenin kutusunun dışında işleniyor
@@ -28,8 +45,19 @@ auto: Kaydırmaya benzer, ancak yalnızca gerektiğinde kaydırma çubukları ek
 overflow-x ve overflow-y özellikleri, içeriğin taşmasının sadece yatay mı yoksa dikey mi (veya her ikisi) mi değiştirileceğini belirtir:  */
 
 /*! Float özelliği; 
-içeriği konumlandırmak ve biçimlendirmek için kullanılır. bır ıcerıgın ıcerısınde bulundugu tag ın neresınde bulunacagını belırlemek ıcın kullanılır. Float özelliği aşağıdaki değerlerden birine sahip olabilir:
+içeriği konumlandırmak ve biçimlendirmek için kullanılır. bır ıcerıgın ıcerısınde bulundugu tag ın neresınde bulunacagını belırlemek ıcın kullanılır. (pixabay.com dan resım alınabılır)
+elementlerı yanyana getırebılmekl ıcın kullanılır. float özellıgı kazandırılan bır element html nın normal akısından cıkarak konumlanır. klasık bır resım ve yanına paragraf-acıklama yapabılmek ıcın bu float uygulanır.
+ Float özelliği aşağıdaki değerlerden birine sahip olabilir:
 left --- right --- none(varsayılan) --- inherit (kendısının ıcınde bulundugu tag ın ozellıgını mıras alır)
+
+/*!Clear özellği;
+temizlenen öğenin yanında ve hangi tarafta hangi öğelerin yüzebileceğini belirtir.
+clear özelliği aşağıdaki değerlerden birine sahip olabilir:
+none - Her iki tarafta da kayan öğelere izin verir. Bu varsayılan
+left - Sol tarafta kayan öğelere izin verilmez
+right - Sağ tarafta kayan öğelere izin verilmez
+both - Sol veya sağ tarafta kayan öğelere izin verilmez
+inherit - Öğe, ebeveyninin net değerini devralır
 
 /*!opacity; 
 bir öğenin opaklığını/saydamlığını belirtir.opacity 0'dan 1'e kadar değer alabilir. Değer ne kadar düşükse o kadar şeffaftır :
@@ -44,6 +72,12 @@ vh: Görünüm alanının yüksekliğinin %1'ine göre
 vmin: Görünümün* küçük boyutunun %1'ine göre vmax: Görünümün* büyük boyutunun %1'ine göre
 %: Ana öğeye göre
 
+% olarak verırsek parentına (yanı ıcınde bulundugu bır ust etıketı-tag) gore ıslem gorur.
+vw - vh (genıslık-yukseklık) olarak verırsek tum ekran ıcın tum gorsel(tarayıcının gorunun kısmına) baz alınarak hareket eder. bu body demke degıldır. dıkat edın.
+
+rem verıldıgınde html etıketını baz alır
+em ıse parentına gore hareket eder.
+
 /*! Width - Height
 Yükseklik ve genişlik özellikleri, bir elemanın yüksekliğini ve genişliğini ayarlamak için kullanılır.
 
@@ -54,7 +88,7 @@ Yükseklik ve genişlik özellikleri aşağıdaki değerlere sahip olabilir:
 auto - Bu varsayılandır. Tarayıcı yüksekliği ve genişliği hesaplar
 uzunluk - Yüksekliği/genişliği px, cm vb. cinsinden tanımlar.
 % - İçerdiği bloğun yüzdesi olarak yüksekliğini/genişliğini tanımlar
-ilk - Yüksekliği/genişliği varsayılan değerine ayarlar
+initial - Yüksekliği/genişliği varsayılan değerine ayarlar
 inherit - Yükseklik/genişlik üst değerinden devralınır
 
 /*!Maksimum genişlik ayarı
@@ -62,4 +96,15 @@ max-width özelliği, bir elemanın maksimum genişliğini ayarlamak için kulla
 
 Bu, width özelliğinin kullanılan değerinin max-width tarafından tanımlanan değerden daha büyük olmasını engeller.
 
+
+/*! Outline;
+öğenin sınırlarının dışında kalan bir çizgidir. Anahatlar sınırlardan farklıdır.
+outline-style
+outline-color
+outline-width
+outline-offset : borderın dısında ıstenen mesafede verılebılır. - (eksı) px vs de gırılebılır.
+outline
+bu ozellıgı, daha cok botton yaparken kullanılabılır. hover ozellıgınde kullanıldıgınde bır hareketlılık verılır.
+/*! transition---> all ease-in-out 300ms gıbı bı deger verıldıgınde button daha guzel bır hale gelebılıyor.
+unutma - deger verıldıgınde deıce dogru hareketlılık oluyor.
 */
