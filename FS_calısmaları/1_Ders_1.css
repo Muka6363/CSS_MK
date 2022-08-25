@@ -1,15 +1,112 @@
 * {
-  font-size: 1.2rem;
-  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
 }
-.container {
+body {
+  font-family: "Times New Roman", Times, serif;
   background-color: aqua;
+  font-weight: 700;
+  margin: 2rem;
+}
+h1 {
+  background-color: red;
+  width: 20rem;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 30px;
+  text-align: center;
+  margin: 2rem auto;
+}
+.header {
+  background-color: rgb(24, 209, 24);
+  font-size: 2rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+/* css vıewer https://chrome.google.com/webstore/detail/cssviewer/ggfgijbpiheegefliciemofobhmofgce?hl=en */
+
+.navbar {
   display: flex;
-  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgb(74, 78, 109);
+  margin-bottom: 1rem;
 }
-.container div {
-  background-color: blueviolet;
-  width: 5rem;
-  height: 5rem;
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem 1.5rem;
+  transition: all 1s;
+  margin-bottom: 1rem;
 }
-/*  */
+.navbar a:hover {
+  background-color: rgb(207, 193, 193);
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.col {
+  padding: 1rem;
+}
+.fs {
+  width: 35%;
+  background-color: rgb(126, 122, 122);
+}
+.aws {
+  width: 30%;
+
+  background-color: rgb(83, 83, 83);
+}
+.data {
+  width: 20%;
+
+  background-color: rgb(85, 69, 69);
+}
+.cms {
+  width: 15%;
+
+  background-color: rgb(100, 93, 93);
+}
+/* width kullanırsak medıa querylerle asagı ındırecegız. */
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  body {
+    color: rgb(255, 238, 6);
+    background-color: chocolate;
+  }
+  .row {
+    gap: 1rem 0rem;
+  }
+  .col {
+    width: 50%;
+  }
+  h1 {
+    width: 15rem;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  body {
+    background-color: fuchsia;
+    color: white;
+  }
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header {
+    display: none; /* boyle yaparak gorunmez hale getırırız.*/
+  }
+  .col {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+.cms {
+  margin-bottom: 0;
+}
