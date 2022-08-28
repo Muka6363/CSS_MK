@@ -13,6 +13,7 @@ nav.nav-top {
   padding: 1rem;
   background-image: linear-gradient(
     to right,
+    rgba(207, 46, 207, 0.805),
     rgb(119, 99, 99),
     rgba(207, 46, 207, 0.805)
   );

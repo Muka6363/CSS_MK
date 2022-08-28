@@ -30,6 +30,7 @@
 }
 .yazi4:hover {
   transform: scaleX(1.5) scaleY(3);
+  background-color: rgb(233, 225, 10);
 }
 
 .yazi5 {
@@ -38,7 +39,7 @@
 
 .yazi5:active {
   /* transform: scale(1.1, 1.2); */
-  transform: scale(98%);
+  transform: scale(90%);
 }
 
 /*************** TRANSLATE - TRANSITION ************/
@@ -54,8 +55,8 @@
 }
 
 .x:hover {
-  transform: translateX(50px) scale(50%) rotate(180deg);
-  background-color: greenyellow;
+  transform: translateX(50px) scale(50%) rotate(720deg);
+  background-color: rgb(228, 12, 221);
 }
 .y:active {
   transform: translateY(-50px);
@@ -73,15 +74,17 @@
 .btn {
   padding: 1rem;
   width: 7rem;
+  height: 7rem;
   background-color: goldenrod;
-  border: none;
+  /* border: none; */
   font-size: 1.2rem;
-  border-radius: 10px;
+  border-radius: 50%;
   transition: background-color 0.5s, color 0.5s;
   font-weight: 800;
 }
 
 .btn:hover {
+  border: none;
   background-color: tomato;
   color: white;
 }
