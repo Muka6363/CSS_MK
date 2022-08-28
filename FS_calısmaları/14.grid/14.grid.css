@@ -7,6 +7,7 @@
   gap: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-columns: repeat(3, 1fr) 200px seklınde de column veya row olusturabılırız. */
   grid-template-rows: 1fr 1fr 1fr 1fr;
   font-size: 1.5rem;
   color: white;
@@ -16,6 +17,7 @@
 .container div {
   padding: 4rem;
   border-radius: 10px;
+  grid
 }
 
 .Header {

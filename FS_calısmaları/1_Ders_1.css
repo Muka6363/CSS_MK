@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
 }
@@ -24,7 +24,7 @@ h1 {
   margin-bottom: 1rem;
 }
 /* css vıewer https://chrome.google.com/webstore/detail/cssviewer/ggfgijbpiheegefliciemofobhmofgce?hl=en */
-
+/* 
 .navbar {
   display: flex;
   justify-content: flex-start;
@@ -109,4 +109,4 @@ h1 {
 }
 .cms {
   margin-bottom: 0;
-}
+} */ */
