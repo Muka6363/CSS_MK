@@ -45,8 +45,8 @@
   /**  flex-start, flex-end,center, stretch,baseline */
   align-items: flex-end;
 
-  /*! Çok satırlı verilerin dikeyde hizalanmasi için kullanılır.
-  //*! flex-wrap: wrap modu */
+  /* ! Çok satırlı verilerin dikeyde hizalanmasi için kullanılır.*/
+  flex-wrap: wrap modu;
   align-content: flex-end;
   overflow: auto;
 }

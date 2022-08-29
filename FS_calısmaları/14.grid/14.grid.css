@@ -17,7 +17,6 @@
 .container div {
   padding: 4rem;
   border-radius: 10px;
-  grid
 }
 
 .Header {
@@ -47,6 +46,7 @@
   grid-row: 3/5;
 }
 .Footer {
+  height: 10rem;
   background-color: rgb(75, 75, 225);
   grid-column: 1/-1; /*-1 ındex numarası gıbı en sonuncu columna kadar demek*/
 }
