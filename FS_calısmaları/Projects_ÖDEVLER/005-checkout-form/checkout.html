@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Checkout</h1>
+    </header>
+    <main>
+      <aside class="myForum">
+        <form action="#" method="get">
+          <div class="forum top">
+            <h2>Contact information</h2>
+            <label for="mail"
+              >Email <br />
+              <input type="email" name="login_mail" id="mail" />
+            </label>
+            <br />
+            <label for="tel"
+              >Phone <br />
+              <input type="tel" name="login_tel" id="tel" />
+            </label>
+          </div>
+          <div class="forum botton">
+            <h2>Shipping address</h2>
+            <label for="name">
+              Full name <br />
+              <input type="text" name="logın_name" id="name" />
+            </label>
+            <br />
+            <label for="address"
+              >Address <br />
+              <input type="text" name="logın_address" id="address"
+            /></label>
+            <br />
+            <label for="city"
+              >City <br />
+              <input type="text" name="logın_city" id="city"
+            /></label>
+            <br />
+            <div class="forum end">
+              <label for=""
+                >Country <br />
+                <select name="Country" id="">
+                  <option value="Turkiye">Turkiye</option>
+                  <option value="Yunanistan">Yunanistan</option>
+                  <option value="İsvec">İsvec</option>
+                </select></label
+              >
+              <label for="post">
+                Post Code <br />
+                <input type="number" name="login_post" id="post" />
+              </label>
+            </div>
+            <br />
+            <div>
+              <label for="box">
+                <input type="checkbox" name="box" id="box" required /> See this
+                information next time
+              </label>
+            </div>
+          </div>
+        </form>
+      </aside>
+    </main>
+    <input type="submit" value="Continue" />
+  </body>
+</html>
